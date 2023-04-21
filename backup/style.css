@@ -54,7 +54,6 @@ main p,
 main b,
 main h3 {
   color: var(--maintext);
-  font-size: 1.1em;
 }
 h3,
 main b {
@@ -154,19 +153,6 @@ aside {
 .grade5 {
   width: 100%;
 }
-.work_right p{
-  margin: 0;
-  text-align: right;
-}
-.job_desc{
-  margin-bottom: 2em;
-}
-.job_desc p{
-  margin-top: 0;
-}
-.job_desc b{
-  margin-top: 2em;
-}
 @media only screen and (max-width: 600px) {
   #container {
     display: block;
@@ -183,8 +169,5 @@ aside {
   }
   .row {
     display: block;
-  }
-  .work_right p{
-    text-align: left;
   }
 }
